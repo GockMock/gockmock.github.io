@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Филипп Юшков — Портфолио</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fafafa;
+        }
+        h1, h2 { color: #111; }
+        .project {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            border: 1px border #e1e4e8;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .tech {
+            display: inline-block;
+            background: #f1f1f1;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+        .contacts a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #0366d6;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Филипп Юшков</h1>
+        <p><strong>Backend</strong></p>
+        <p>Студент IT-направления. Быстро осваиваю новые технологии в процессе работы.</p>
+        <div class="contacts">
+            <a href="https://github.com/gockmock" target="_blank">GitHub</a>
+            <a href="https://t.me/gxckmxck" target="_blank">Telegram</a>
+        </div>
+    </header>
+
+    <hr>
+
+    <section>
+        <h2>Ключевой стек</h2>
+        <div>
+            <span class="tech">Python</span>
+            <span class="tech">Docker</span>
+            <span class="tech">Linux (LFS)</span>
+            <span class="tech">Git</span>
+            <span class="tech">CI/CD</span>
+            <span class="tech">Telegram Bot API</span>
+            <span class="tech">asyncio</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>Проекты</h2>
+
+        <div class="project">
+            <h3>R&D проект: Интеграция LLM с САПР (КОМПАС-3D)</h3>
+            <p>Участие в командном проекте по созданию ИИ-системы для генерации чертежей. Настройка процессов совместной разработки и инфраструктуры. Разработал инструкции по развертыванию локального окружения проекта для участников команды. Внедрил систему контроля версий Git, обучал команду работе с ветками, помогал в разрешении конфликтов слияния (merge conflicts). Проект доведен до стадии коммерциализации.</p>
+            <div>
+                <span class="tech">Python</span>
+                <span class="tech">LLM</span>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>Практическое знакомство с устройством Linux (LFS)</h3>
+            <p>Выполнение учебного проекта по сборке минимального дистрибутива Linux из исходных кодов по методологии Linux From Scratch. Получение базового представления о структуре каталогов ОС, процессе загрузки и базовых утилитах системного окружения. Использование Bash-скриптов и LLM-ассистента для автоматизации рутинных этапов компиляции пакетов.</p>
+            <div>
+                <span class="tech">Linux</span>
+                <span class="tech">Bash</span>
+                <span class="tech">LFS</span>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>Сервис RAG-поиска</h3>
+            <p>Разработка и контейнеризация интеллектуального поиска (Retrieval-Augmented Generation) для веб-ресурса. Деплой сервиса с использованием Docker и ngrok.</p>
+            <div>
+                <span class="tech">Python</span>
+                <span class="tech">Docker</span>
+                <span class="tech">RAG</span>
+                <span class="tech">ngrok</span>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>Fullstack Telegram Bot</h3>
+            <p>Разработка MVP (прототипа) игрового бота со сложной серверной логикой, интеграцией внешних API и административной панелью для управления контентом. Настройка CI/CD: автоматизировал процесс деплоя проекта на удаленный сервер (VPS) через GitHub Actions при каждом пуше в ветку main.</p>
+            <div>
+                <span class="tech">Python</span>
+                <span class="tech">asyncio</span>
+                <span class="tech">Telegram API</span>
+                <span class="tech">GitHub Actions</span>
+                <span class="tech">CI/CD</span>
+                <span class="tech">Docker</span>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
